@@ -1,5 +1,10 @@
 Build Instructions
 ----
+
+This repo is no longer a fork of jwilder/nginx-proxy, now it just extends docker
+image jwilder/nginx-proxy with modified nginx.tmpl. So there is no need to merge
+commits of jwilder/nginx-proxy, just rebuild image, as per following instructions.
+
 <pre>
 // pull latest jwilder/nginx-proxy
 docker pull jwilder/nginx-proxy:latest
